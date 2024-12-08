@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="content">
+      <div
+        class="left"
+        data-aos="zoom-in-right"
+        data-aos-delay="100"
+        data-aos-easing="ease-in-out"
+      >
+        <img src="delivery.png" alt="" />
+      </div>
+
+      <div
+        class="right"
+        data-aos="zoom-in-left"
+        data-aos-delay="100"
+        data-aos-easing="ease-in-out"
+      >
+        <h1 class="title">Hello, I am Jack.</h1>
+        <p>
+          Growing up, been passionate about cars for as long as I can remember.
+          Whether it was playing with toy cars or watching races on TV, I was
+          always drawn to the world of automobiles. Over the years, this passion
+          has only grown, inspiring me to learn more about the evolution of
+          automotive technology.
+        </p>
+      </div>
+    </div>
+
+    <h1
+      class="timeline-title"
+      data-aos="zoom-in-center"
+      data-aos-delay="100"
+      data-aos-easing="ease-in-out"
+    >
+      Did you know the evolution of car ?
+    </h1>
+
+    <div class="car-history-section">
+      <iframe
+        data-aos="zoom-in-center"
+        data-aos-delay="100"
+        data-aos-easing="ease-in-out"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/zT123qRQbgM?si=L-WEI2jKh4FVI3vm"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <div
+      class="timeline"
+      data-aos="zoom-in-center"
+      data-aos-delay="100"
+      data-aos-easing="ease-in-out"
+    >
+      <ul>
+        <li>
+          <div class="content">
+            <h3>Steam-Powered Vehicles</h3>
+            <p>
+              Early cars were powered by steam engines, such as Nicolas-Joseph
+              Cugnot's 1769 steam-powered tricycle, laying the groundwork for
+              modern automotive engineering. <br />
+              <img
+                class="steam-engine-car rise-shake"
+                src="steam-engine-car.png"
+              />
+            </p>
+          </div>
+          <div class="time">
+            <h4>18th-19th Century</h4>
+          </div>
+        </li>
+
+        <li>
+          <div class="content">
+            <h3>Internal Combustion Engine Cars</h3>
+            <p style="margin: 10px 30px 0">
+              Karl Benz's creation of the Benz Patent-Motorwagen in 1885
+              introduced gasoline-powered vehicles, leading to mass production.
+            </p>
+          </div>
+          <div class="time">
+            <h4>Late 19th Century</h4>
+          </div>
+        </li>
+
+        <li>
+          <div class="content">
+            <h3>Mass Production and Accessibility</h3>
+            <p>
+              Henry Ford revolutionized the industry with assembly line
+              production, making cars like the Model T affordable for the
+              average person
+            </p>
+          </div>
+          <div class="time" style="right: -170px">
+            <h4>Early 20th Century</h4>
+          </div>
+        </li>
+
+        <li>
+          <div class="content">
+            <h3>Technological Advancements</h3>
+            <p style="margin: 10px 20px 0">
+              Cars saw the integration of safety features (e.g., seat belts,
+              airbags), convenience (e.g., automatic transmission, air
+              conditioning), and performance improvements.
+              <img class="ford-mustage" src="ford-mustage.png" />
+            </p>
+          </div>
+          <div class="time" style="left: -210px">
+            <h4>Mid to Late 20th Century</h4>
+          </div>
+        </li>
+
+        <li>
+          <div class="content">
+            <h3>Electric and Autonomous Vehicles</h3>
+            <p>
+              Modern cars emphasize sustainability with electric vehicles (e.g.,
+              Tesla) and innovative technologies like self-driving capabilities
+              and advanced driver assistance systems (ADAS).
+            </p>
+          </div>
+          <div class="time" style="right: -130px">
+            <h4>21st Century</h4>
+          </div>
+        </li>
+
+        <div style="clear: both"></div>
+      </ul>
+    </div>
+
+    <div
+      class="click-me"
+      id="flipButton"
+      data-aos="zoom-in-right"
+      data-aos-delay="100"
+      data-aos-easing="ease-in-out"
+    >
+      <p>Click Me !</p>
+    </div>
+    <div
+      class="thank-you-bye"
+      data-aos="zoom-in-center"
+      data-aos-delay="100"
+      data-aos-easing="ease-in-out"
+    >
+      <img class="thank-you-plate" src="thank-you.png" />
+    </div>
+
+    <script>
+      document
+        .getElementById("flipButton")
+        .addEventListener("click", function () {
+          const plate = document.querySelector(".thank-you-plate");
+          plate.style.transform =
+            plate.style.transform === "scaleX(-1)" ? "scaleX(1)" : "scaleX(-1)";
+        });
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
