@@ -1,22 +1,12 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "",
+    "paragraph": ""
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
-    ]
+    "paragraph1": "Versatech Management Solution is a premier provider of specialized consultancy services, dedicated to enhancing organizational performance through strategic document control, project governance, and process optimization. We partner with clients across industries to deliver tailored solutions that drive compliance, operational efficiency, and long-term success.",
+    "paragraph2": "With a deep understanding of complex project environments and regulatory landscapes, our team brings a wealth of experience in implementing best-in-class practices that align with international standards and client-specific requirements. Our consultancy is built on a foundation of integrity, precision, and continuous improvement.",
+    "philosophy": "At Versatech Management Consultancy, we believe that excellence in organizational performance begins with precision, integrity, and innovation. Our philosophy centers on empowering businesses to thrive through strategic document control, quality management, and sustainable digital transformation. We are committed to fostering a culture of continuous improvement, where compliance is not just a requirement but a pathway to resilience and long-term success. By aligning our practices with international standards and tailoring solutions to each client’s unique environment, we ensure that every engagement delivers measurable value, operational clarity, and enduring impact."
   },
   "Gallery": [
     {
@@ -152,33 +142,20 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
+    "address": "SA-M4-07, BLOCK M ANJUNG B, JALAN KP1/6, 43300 SERI KEMBANGAN, SELANGOR",
     "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "email": "+6012-503 7771"
   },
-  "Features": [
+  "MissionVision": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Mission",
+      "text": "To empower organizations by delivering expert consultancy in document control management, project governance, and process optimization, while fostering a culture of quality, compliance, and continuous improvement. We educate and guide companies in adopting digital solutions and sustainable practices, promoting a paperless environment that aligns with global green initiatives. Through tailored strategies and adherence to international standards, we help clients enhance operational efficiency, ensure regulatory compliance, and build resilient systems that support long-term success."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Vision",
+      "text": "To be the leading global consultancy recognized for transforming organizational performance through innovative, standards-aligned solutions in document control, project governance, and quality management. We envision a future where organizations thrive in complex project environments by embracing digital transformation, sustainable practices, and robust document control frameworks that ensure compliance, transparency, and operational excellence."
     }
   ]
 }

@@ -11,6 +11,14 @@ export const Team = (props) => {
             dapibus leonec.
           </p>
         </div>
+        ZAWANI BINTI AG HASHIM CO-FOUNDER/DIRECTOR Professional Summary
+        Experienced and detail-oriented Document Control Manager with over a
+        decade of expertise in managing corporate and project documentation
+        across construction and oil & gas industries. Proficient in implementing
+        and overseeing document control systems (Aconex, Procore, SharePoint),
+        ensuring compliance with quality standards, and leading teams to deliver
+        efficient document workflows. Recognized for strong leadership, process
+        optimization, and commitment to project success.
         <div id="row">
           {props.data
             ? props.data.map((d, i) => (
