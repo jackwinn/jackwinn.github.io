@@ -8,6 +8,18 @@
     "paragraph2": "With a deep understanding of complex project environments and regulatory landscapes, our team brings a wealth of experience in implementing best-in-class practices that align with international standards and client-specific requirements. Our consultancy is built on a foundation of integrity, precision, and continuous improvement.",
     "philosophy": "At Versatech Management Consultancy, we believe that excellence in organizational performance begins with precision, integrity, and innovation. Our philosophy centers on empowering businesses to thrive through strategic document control, quality management, and sustainable digital transformation. We are committed to fostering a culture of continuous improvement, where compliance is not just a requirement but a pathway to resilience and long-term success. By aligning our practices with international standards and tailoring solutions to each client’s unique environment, we ensure that every engagement delivers measurable value, operational clarity, and enduring impact."
   },
+  "MissionVision": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Mission",
+      "text": "To empower organizations by delivering expert consultancy in document control management, project governance, and process optimization, while fostering a culture of quality, compliance, and continuous improvement. We educate and guide companies in adopting digital solutions and sustainable practices, promoting a paperless environment that aligns with global green initiatives. Through tailored strategies and adherence to international standards, we help clients enhance operational efficiency, ensure regulatory compliance, and build resilient systems that support long-term success."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Vision",
+      "text": "To be the leading global consultancy recognized for transforming organizational performance through innovative, standards-aligned solutions in document control, project governance, and quality management. We envision a future where organizations thrive in complex project environments by embracing digital transformation, sustainable practices, and robust document control frameworks that ensure compliance, transparency, and operational excellence."
+    }
+  ],
   "Gallery": [
     {
       "title": "Project Title",
@@ -58,33 +70,39 @@
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Document Audit & Assessment",
+      "text1": "Review existing systems and workflows",
+      "text2": "Identify inefficiencies and compliance risks"
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Strategy & Framework Development",
+      "text1": "Design custom document management strategies",
+      "text2": "Define taxonomy, metadata standards, and retention policies"
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "System Design & Implementation",
+      "text1": "Configure document management platforms(e.g. Aconex, Procore, SharePoint, Google Workspace)",
+      "text2": "Set up access controls, versioning, and automation workflows"
     },
     {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Training & Change Management",
+      "text1": "Conduct staff training sessions",
+      "text2": "Provide user manuals and onboarding support"
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Ongoing Support & Optimization",
+      "text1": "Monthly audits and performance reviews",
+      "text2": "Continuous improvement recommendations"
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Subscription & Retainer Options",
+      "text1": "Flexible monthly plans for ongoing consultancy and support",
+      "text2": "Tiered packages to suit different organization sizes and needs"
     }
   ],
   "Testimonials": [
@@ -122,40 +140,32 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "Zawani Binti Ag Hashim",
+      "job": "Co-founder/Director",
+      "summary": "Experienced and detail-oriented Document Control Manager with over a decade of expertise in managing corporate and project documentation across construction and oil & gas industries. Proficient in implementing and overseeing document control systems (Aconex, Procore, SharePoint), ensuring compliance with quality standards, and leading teams to deliver efficient document workflows. Recognized for strong leadership, process optimization, and commitment to project success."
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "",
+      "name": "Hasyimah",
+      "job": "Finance",
+      "summary":""
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "img": "",
+      "name": "Novelia Lapius",
+      "job": "Admin",
+      "summary":""
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "",
+      "name": "Rabiatul Akma",
+      "job": "Sales Marketing",
+      "summary":""
     }
   ],
   "Contact": {
     "address": "SA-M4-07, BLOCK M ANJUNG B, JALAN KP1/6, 43300 SERI KEMBANGAN, SELANGOR",
     "phone": "+1 123 456 1234",
     "email": "+6012-503 7771"
-  },
-  "MissionVision": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Mission",
-      "text": "To empower organizations by delivering expert consultancy in document control management, project governance, and process optimization, while fostering a culture of quality, compliance, and continuous improvement. We educate and guide companies in adopting digital solutions and sustainable practices, promoting a paperless environment that aligns with global green initiatives. Through tailored strategies and adherence to international standards, we help clients enhance operational efficiency, ensure regulatory compliance, and build resilient systems that support long-term success."
-    },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Vision",
-      "text": "To be the leading global consultancy recognized for transforming organizational performance through innovative, standards-aligned solutions in document control, project governance, and quality management. We envision a future where organizations thrive in complex project environments by embracing digital transformation, sustainable practices, and robust document control frameworks that ensure compliance, transparency, and operational excellence."
-    }
-  ]
+  }
 }

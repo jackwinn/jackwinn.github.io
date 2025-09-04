@@ -7,8 +7,9 @@ export const Services = (props) => {
         <div className="section-title">
           <h2>Our Services</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            We provide end-to-end consultancy services to help organizations
+            streamline, secure, and optimize their document management
+            processes. Our services include:
           </p>
         </div>
         <div className="row">
@@ -19,7 +20,8 @@ export const Services = (props) => {
                   <i className={d.icon}></i>
                   <div className="service-desc">
                     <h3>{d.name}</h3>
-                    <p>{d.text}</p>
+                    <p>{d.text1}</p>
+                    <p>{d.text2}</p>
                   </div>
                 </div>
               ))

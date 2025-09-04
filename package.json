@@ -1,5 +1,6 @@
 {
-  "name": "landingpage-react-template",
+  "name": "versa-tect-ms",
+  "homepage": "https://jackwinn.github.io/versa-tech-ms",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

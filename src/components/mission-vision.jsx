@@ -2,7 +2,7 @@ import React from "react";
 
 export const MissionVision = (props) => {
   return (
-    <div id="features" className="text-center">
+    <div id="mission-vision" className="text-center">
       <div className="container">
         <div className="col-md-10 col-md-offset-1 section-title">
           <h2>OUR MISSION & VISION</h2>

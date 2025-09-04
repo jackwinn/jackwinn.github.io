@@ -244,11 +244,12 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
-/* Features Section */
-#features {
+/* Mission Vission Section */
+#mission-vision {
+  padding: 100px 0;
   background: #f6f6f6;
 }
-#features i.fa {
+#mission-vision i.fa {
   font-size: 38px;
   margin-bottom: 20px;
   transition: all 0.5s;
@@ -313,9 +314,9 @@ header .intro-text {
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: #fff;
 }
-#services .service-desc {
+/* #services .service-desc {
   margin: 10px 10px 20px;
-}
+} */
 #services h2 {
   color: #fff;
 }
@@ -347,9 +348,9 @@ header .intro-text {
 #services p {
   color: rgba(255, 255, 255, 0.75);
 }
-#services .service-desc {
+/* #services .service-desc {
   margin-bottom: 40px;
-}
+} */
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
