@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - versa-tech-ms
+  workflow_dispatch:
 
 permissions:
   contents: read
