@@ -31,8 +31,8 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm install
-        # Or "npm ci" if you have package-lock.json committed
+        # run: npm install
+        run: npm ci
 
       - name: Build project
         run: npm run build
