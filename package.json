@@ -1,6 +1,6 @@
 {
   "name": "versa-tect-ms",
-  "homepage": "",
+  "homepage": "http://versatechms.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
