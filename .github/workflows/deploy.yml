@@ -3,7 +3,7 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - versa-tech-ms   # 👈 adjust this to your branch name
+      - versa-tech-ms
 
 permissions:
   contents: read
@@ -19,7 +19,6 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout code
@@ -33,9 +32,16 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        # Or "npm ci" if you have package-lock.json committed
 
       - name: Build project
         run: npm run build
+
+      - name: Disable Jekyll
+        run: touch ./build/.nojekyll
+
+      - name: Add CNAME
+        run: echo "versatechms.com" > ./build/CNAME
 
       - name: Upload production-ready build files
         uses: actions/upload-pages-artifact@v3
