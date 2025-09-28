@@ -63,9 +63,10 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-phone"></i> Phone
+                  <i className="fa fa-phone"></i> Contact No.
                 </span>{" "}
-                {props.data ? props.data.phone : "loading"}
+                {props.data ? props.data.contactNo : "loading"}<br/>
+                {props.data ? props.data.mobileNo : "loading"}
               </p>
             </div>
             <div className="contact-item">

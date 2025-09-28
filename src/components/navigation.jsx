@@ -20,7 +20,7 @@ export const Navigation = (props) => {
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
             <img src={VersaTechLogo} alt="Logo" />
-          </a>{" "}
+          </a>
         </div>
 
         <div

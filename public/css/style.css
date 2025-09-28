@@ -91,11 +91,11 @@ hr {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
   color: #555;
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 500;
   padding: 8px 2px;
   border-radius: 0;
-  margin: 9px 20px 0;
+  margin: 9px 20px;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
   display: block;
@@ -282,6 +282,10 @@ header .intro-text {
   width: 60px;
   bottom: 0;
   left: 0;
+}
+#about .about-text .company-name-in-paragraph {
+  font-size: 18px;
+  font-weight: 500;
 }
 #about .about-text li {
   margin-bottom: 6px;
@@ -587,11 +591,12 @@ label {
 /* Footer Section*/
 #footer {
   background: #f6f6f6;
-  padding: 30px 0;
+  padding: 15px 0;
 }
 #footer p {
   color: #888;
   font-size: 14px;
+  margin-bottom: 0px;
 }
 #footer a {
   color: #608dfd;
