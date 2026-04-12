@@ -1,9 +1,13 @@
 import React from "react";
 import wanie from "../assets/team/Wanie.png";
+import nuraini from "../assets/team/Nur Aini.jpg";
+import wilma from "../assets/team/Wilma Binti James.jpeg";
 
 /** Keys must match `img` in data.json; files live under src/assets/team (webpack bundles them). */
 const TEAM_IMAGES = {
   wanie,
+  nuraini,
+  wilma,
 };
 
 export const Team = (props) => {

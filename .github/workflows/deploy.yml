@@ -49,10 +49,11 @@ jobs:
         run: echo "versatechms.com" > ./build/CNAME
 
       - name: Upload production-ready build files
-        uses: actions/upload-pages-artifact@v5
+        # Pin full semver: major-only `v5` tag may be missing until release workflow updates it
+        uses: actions/upload-pages-artifact@v5.0.0
         with:
           path: ./build
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@v5.0.0
