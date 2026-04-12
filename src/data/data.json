@@ -10,157 +10,60 @@
   },
   "MissionVision": [
     {
-      "icon": "fa fa-comments-o",
+      "icon": "fa fa-bullseye",
       "title": "Mission",
       "text": "To empower organizations by delivering expert consultancy in document control management, project governance, and process optimization, while fostering a culture of quality, compliance, and continuous improvement. We educate and guide companies in adopting digital solutions and sustainable practices, promoting a paperless environment that aligns with global green initiatives. Through tailored strategies and adherence to international standards, we help clients enhance operational efficiency, ensure regulatory compliance, and build resilient systems that support long-term success."
     },
     {
-      "icon": "fa fa-bullhorn",
+      "icon": "fa fa-eye",
       "title": "Vision",
       "text": "To be the leading global consultancy recognized for transforming organizational performance through innovative, standards-aligned solutions in document control, project governance, and quality management. We envision a future where organizations thrive in complex project environments by embracing digital transformation, sustainable practices, and robust document control frameworks that ensure compliance, transparency, and operational excellence."
     }
   ],
-  "Gallery": [
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
-    }
-  ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
+      "icon": "fa fa-file-text-o",
       "name": "Document Audit & Assessment",
       "text1": "Review existing systems and workflows",
       "text2": "Identify inefficiencies and compliance risks"
     },
     {
-      "icon": "fa fa-cart-arrow-down",
+      "icon": "fa fa-cogs",
       "name": "Strategy & Framework Development",
       "text1": "Design custom document management strategies",
       "text2": "Define taxonomy, metadata standards, and retention policies"
     },
     {
-      "icon": "fa fa-cloud-download",
+      "icon": "fa fa-desktop",
       "name": "System Design & Implementation",
       "text1": "Configure document management platforms(e.g. Aconex, Procore, SharePoint, Google Workspace)",
       "text2": "Set up access controls, versioning, and automation workflows"
     },
     {
-      "icon": "fa fa-language",
+      "icon": "fa fa-users",
       "name": "Training & Change Management",
       "text1": "Conduct staff training sessions",
       "text2": "Provide user manuals and onboarding support"
     },
     {
-      "icon": "fa fa-plane",
+      "icon": "fa fa-refresh",
       "name": "Ongoing Support & Optimization",
       "text1": "Monthly audits and performance reviews",
       "text2": "Continuous improvement recommendations"
     },
     {
-      "icon": "fa fa-pie-chart",
+      "icon": "fa fa-sliders",
       "name": "Subscription & Retainer Options",
       "text1": "Flexible monthly plans for ongoing consultancy and support",
       "text2": "Tiered packages to suit different organization sizes and needs"
     }
   ],
-  "Testimonials": [
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    }
-  ],
   "Team": [
     {
-      "img": "",
+      "img": "wanie",
       "name": "Zawani Binti Ag Hashim",
       "job": "Co-founder/Director",
       "summary": "Experienced and detail-oriented Document Control Manager with over a decade of expertise in managing corporate and project documentation across construction and oil & gas industries. Proficient in implementing and overseeing document control systems (Aconex, Procore, SharePoint), ensuring compliance with quality standards, and leading teams to deliver efficient document workflows. Recognized for strong leadership, process optimization, and commitment to project success."
-    },
-    {
-      "img": "",
-      "name": "Hasyimah",
-      "job": "Finance",
-      "summary":""
-    },
-    {
-      "img": "",
-      "name": "Novelia Lapius",
-      "job": "Admin",
-      "summary":""
-    },
-    {
-      "img": "",
-      "name": "Rabiatul Akma",
-      "job": "Sales Marketing",
-      "summary":""
     }
   ],
   "Contact": {

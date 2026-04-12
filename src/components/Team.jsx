@@ -1,4 +1,10 @@
 import React from "react";
+import wanie from "../assets/team/Wanie.png";
+
+/** Keys must match `img` in data.json; files live under src/assets/team (webpack bundles them). */
+const TEAM_IMAGES = {
+  wanie,
+};
 
 export const Team = (props) => {
   return (
@@ -20,7 +26,11 @@ export const Team = (props) => {
                   {/* Left column: Image + name + job */}
                   <div className="col-md-6 col-sm-6 team">
                     <div className="thumbnail">
-                      <img src={d.img} alt={d.name} className="team-img" />
+                      <img
+                        src={d.img ? TEAM_IMAGES[d.img] || d.img : ""}
+                        alt={d.name}
+                        className="team-img"
+                      />
                       <p>{d.name}</p>
                       <p>{d.job}</p>
                     </div>

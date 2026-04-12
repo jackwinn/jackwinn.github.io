@@ -1,5 +1,5 @@
 import React from "react";
-import VersaTechLogo from "../versa-tech-logo.png";
+import VersaTechLogo from "../assets/logo/Versatech Logo Transparent.png";
 
 export const Navigation = (props) => {
   return (
@@ -45,7 +45,7 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a href="#team" className="page-scroll">
-                The Organization
+                Meet The Team
               </a>
             </li>
             <li>
