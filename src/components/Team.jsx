@@ -1,5 +1,5 @@
 import React from "react";
-import Wanie from "../assets/team/wanie.svg";
+import Wanie from "../assets/team/wanie.png";
 import Wilma from "../assets/team/wilma.webp";
 import Nurul from "../assets/team/nurul.webp";
 import Afiqah from "../assets/team/afiqah.webp";
