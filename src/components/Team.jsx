@@ -12,7 +12,7 @@ export const Team = (props) => {
           <h2>Meet the Team</h2>
         </div>
 
-        <div className="row">
+        <div className="row" style={{ marginBottom: "40px" }}>
           <div className="col-md-6 col-sm-6">
             <img src={Wanie} className="team-founder-img" />
           </div>
