@@ -278,7 +278,7 @@ header .intro-text {
   z-index: 3;
   padding-top: 200px;
   padding-bottom: 100px;
-  max-width: 58%;
+  /* max-width: 58%; */
   /* text-align: center; */
 }
 
