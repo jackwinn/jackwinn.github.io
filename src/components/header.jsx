@@ -1,4 +1,5 @@
 import React from "react";
+import IntroBgHalf from "../assets/header/intro-bg-half.png";   
 
 export const Header = (props) => {
   return (
@@ -7,12 +8,24 @@ export const Header = (props) => {
         <div className="overlay">
           <div className="container">
             <div className="row">
-              <div className="col-md-8 col-md-offset-2 intro-text">
+              <div className="col-md-12 intro-text">
+                {/* col-md-offset-2 */}
                 <h1>
-                  {props.data ? props.data.title : "Loading"}
-                  <span></span>
+                  <span>Transforming Document Control</span>
                 </h1>
-                <p>{props.data ? props.data.paragraph : "Loading"}</p>
+                <h1>Into Project Confidence</h1>
+                <div className="intro-text-content">
+                  <p>
+                    We help project teams implement efficient document systems,
+                  </p>
+                  <p>improve colloration, and ensure audit-ready compliance.</p>
+                </div>
+                <a
+                  href="#services"
+                  className="btn btn-custom btn-lg page-scroll"
+                >
+                  Our Services
+                </a>
                 {/* <a
                   href="#features"
                   className="btn btn-custom btn-lg page-scroll"
@@ -23,6 +36,7 @@ export const Header = (props) => {
             </div>
           </div>
         </div>
+        <img src={IntroBgHalf} alt="Intro Background" className="intro-bg-half" />
       </div>
     </header>
   );

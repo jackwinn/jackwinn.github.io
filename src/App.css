@@ -16,8 +16,3 @@
     width: 110%;
   }
 }
-
-.navbar-brand img {
-  max-height: 40px; /* adjust for navbar height */
-  width: auto;
-}

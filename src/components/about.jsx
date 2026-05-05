@@ -15,18 +15,33 @@ export const About = (props) => {
               <h2>About Us</h2>
               <p>
                 <span className="company-name-in-paragraph">
-                  Versatech Management Solution{' '}
+                  Versatech Management Solution{" "}
                 </span>
-                {props.data ? props.data.paragraph1 : "loading..."}
+                is a specialized consultancy providing professional services in
+                document control systems, construction digital platforms, and
+                compliance readiness for construction and infrastructure
+                projects. We help organizations strengthen document governance
+                frameworks, implement effective digital collaboration
+                environments, and align project processes with recognized
+                industry standards.
               </p>
-              <p>{props.data ? props.data.paragraph2 : "loading..."}</p>
+              <p>
+                Through structured methodologies and practical implementation
+                strategies, Versatech enables project teams to improve
+                transparency, sistency, and control over project information.
+                Our solutions enhance document accuracy, support stakeholder
+                coordination, and help maintain audit-ready project
+                environments, allowing organizations to manage project
+                information with confidence and efficiency.
+              </p>
               <h2>Our Philosophy</h2>
               <p>
                 At{" "}
                 <span className="company-name-in-paragraph">
-                  Versatech Management Consultancy{' '}
+                  Versatech Management Consultancy
                 </span>
-                {props.data ? props.data.philosophy : "loading..."}
+                , we believe strong performance comes from accuracy, integrity, and innovation, supported by effective document control, quality management, and digital transformation. We focus on continuous improvement and tailored solutions aligned with international
+                standards to deliver clear processes, measurable results, and lasting value.
               </p>
               {/* <div className="list-style">
                 <div className="col-lg-6 col-sm-6 col-xs-12">

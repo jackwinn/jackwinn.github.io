@@ -1,6 +1,8 @@
 import { useState } from "react";
-// import emailjs from "emailjs-com";
-// import React from "react";
+import Email from "../assets/contact/email.svg";
+import Phone from "../assets/contact/phone.svg";
+import Location from "../assets/contact/location.svg";
+import IconLogo from "../assets/logo/icon-logo.png";
 
 const initialState = {
   name: "",
@@ -39,43 +41,28 @@ export const Contact = (props) => {
   return (
     <div>
       <div id="contact">
-        <div className="container">
-          <div className="col-md-8">
-            <div className="row"></div>
-          </div>
-          <div className="col-md-12 contact-info">
-            <div className="section-title">
-              <h2>Get In Touch</h2>
-              {/* <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
-                </p> */}
-            </div>
-            <div className="contact-item">
-              {/* <h3>Contact Info</h3> */}
-              <p>
-                <span>
-                  <i className="fa fa-map-marker"></i> Address
-                </span>
-                {props.data ? props.data.address : "loading"}
-              </p>
-            </div>
-            <div className="contact-item">
-              <p>
-                <span>
-                  <i className="fa fa-phone"></i> Contact No.
-                </span>{" "}
-                {props.data ? props.data.contactNo : "loading"}<br/>
-                {props.data ? props.data.mobileNo : "loading"}
-              </p>
-            </div>
-            <div className="contact-item">
-              <p>
-                <span>
-                  <i className="fa fa-envelope-o"></i> Email
-                </span>{" "}
-                {props.data ? props.data.email : "loading"}
-              </p>
+        <div className="">
+          <div className="contact-card">
+            <img src={IconLogo} alt="VersatechMS logo" className="contact-brand-icon" />
+            <div className="contact-info">
+              <div className="section-title">
+                <h2>Connect With Us</h2>
+              </div>
+              <div className="contact-item">
+                <img src={Location} alt="Location" className="contact-icon" />
+                <p>
+                  SA-M4-07, Block M, Anjung B, Jalan KP1/6, <br />
+                  43300 Seri Kembangan, Selangor
+                </p>
+              </div>
+              <div className="contact-item">
+                <img src={Phone} alt="Phone" className="contact-icon" />
+                <p>+6017 551 7371</p>
+              </div>
+              <div className="contact-item">
+                <img src={Email} alt="Email" className="contact-icon" />
+                <p>admin.info@versatechms.com</p>
+              </div>
             </div>
           </div>
         </div>
@@ -84,7 +71,7 @@ export const Contact = (props) => {
         <div className="container text-center">
           <p>
             {" "}
-            © Copyright 2025. Versatech Management Solution. All Rights
+            © Copyright 2025-{new Date().getFullYear()}. Versatech Management Solution Consultancy. All Rights
             Reserved.
           </p>
         </div>

@@ -1,5 +1,6 @@
 import React from "react";
-import VersaTechLogo from "../assets/logo/Versatech Logo Transparent.png";
+import VersaTechLogo from "../assets/logo/logo-with-white-text.svg";
+import VersaTechLogoFallback from "../assets/logo/logo.png";
 
 export const Navigation = (props) => {
   return (
@@ -19,7 +20,14 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            <img src={VersaTechLogo} alt="Logo" />
+            <img
+              src={VersaTechLogo}
+              alt="VersatechMS Logo"
+              className="navbar-logo"
+              onError={(e) => {
+                e.currentTarget.src = VersaTechLogoFallback;
+              }}
+            />
           </a>
         </div>
 
@@ -35,7 +43,7 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a href="#mission-vision" className="page-scroll">
-                Mission and Vision
+                Mission & Vision
               </a>
             </li>
             <li>

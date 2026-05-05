@@ -1,14 +1,8 @@
 import React from "react";
-import wanie from "../assets/team/Wanie.png";
-import nuraini from "../assets/team/Nur Aini.jpg";
-import wilma from "../assets/team/Wilma Binti James.jpeg";
-
-/** Keys must match `img` in data.json; files live under src/assets/team (webpack bundles them). */
-const TEAM_IMAGES = {
-  wanie,
-  nuraini,
-  wilma,
-};
+import Wanie from "../assets/team/wanie.svg";
+import Wilma from "../assets/team/wilma.webp";
+import Nurul from "../assets/team/nurul.webp";
+import Afiqah from "../assets/team/afiqah.webp";
 
 export const Team = (props) => {
   return (
@@ -16,37 +10,43 @@ export const Team = (props) => {
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
           <h2>Meet the Team</h2>
-          {/* <p></p> */}
         </div>
 
         <div className="row">
-          {props.data
-            ? props.data.map((d, i) => (
-                <div
-                  className="row"
-                  key={`${d.name}-${i}`}
-                  style={{ marginBottom: "20px" }}
-                >
-                  {/* Left column: Image + name + job */}
-                  <div className="col-md-6 col-sm-6 team">
-                    <div className="thumbnail">
-                      <img
-                        src={d.img ? TEAM_IMAGES[d.img] || d.img : ""}
-                        alt={d.name}
-                        className="team-img"
-                      />
-                      <p>{d.name}</p>
-                      <p>{d.job}</p>
-                    </div>
-                  </div>
+          <div className="col-md-6 col-sm-6">
+            <img src={Wanie} className="team-founder-img" />
+          </div>
+          <div className="col-md-6 col-sm-6 team-founder-content">
+            <h2 className="team-founder-name">Zawani Binti Ag Hashim</h2>
+            <h3 className="team-founder-job">Founder / Director</h3>
+            <p className="team-founder-summary">
+              Specialist in architecting, implementing, and auditing Electronic
+              Document Management Systems (EDMS) and project quality frameworks,
+              enabling efficient information flow, compliance, and operational
+              excellence across complex, multi-stakeholder environments.
+              Experienced in delivering ISO-aligned documentation systems for
+              high-profile projects, including TRX Mall and mission-critical
+              Data Centres.
+            </p>
+          </div>
+        </div>
 
-                  {/* Right column: Summary */}
-                  <div className="col-md-6 col-sm-6 team">
-                    <p>{d.summary}</p>
-                  </div>
-                </div>
-              ))
-            : "loading"}
+        <div className="row">
+          <div className="col-md-4 col-sm-4">
+            <img src={Wilma} className="team-member-img" />
+            <h3 className="team-member-name">Wilma Binti James</h3>
+            <p className="team-member-job">Document Controller</p>
+          </div>
+          <div className="col-md-4 col-sm-4">
+            <img src={Nurul} className="team-member-img" />
+            <h3 className="team-member-name">Wilma Binti James</h3>
+            <p className="team-member-job">Document Controller</p>
+          </div>
+          <div className="col-md-4 col-sm-4">
+            <img src={Afiqah} className="team-member-img" />
+            <h3 className="team-member-name">Wilma Binti James</h3>
+            <p className="team-member-job">Document Controller</p>
+          </div>
         </div>
       </div>
     </div>
