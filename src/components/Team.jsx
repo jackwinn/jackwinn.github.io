@@ -39,13 +39,13 @@ export const Team = (props) => {
           </div>
           <div className="col-md-4 col-sm-4">
             <img src={Nurul} className="team-member-img" />
-            <h3 className="team-member-name">Wilma Binti James</h3>
-            <p className="team-member-job">Document Controller</p>
+            <h3 className="team-member-name">Nurulaini Binti Paiman</h3>
+            <p className="team-member-job">Finance cum Admin</p>
           </div>
           <div className="col-md-4 col-sm-4">
             <img src={Afiqah} className="team-member-img" />
-            <h3 className="team-member-name">Wilma Binti James</h3>
-            <p className="team-member-job">Document Controller</p>
+            <h3 className="team-member-name">Nurul Afiqah Binti Abd Lajid</h3>
+            <p className="team-member-job">Marketing Executive</p>
           </div>
         </div>
       </div>
