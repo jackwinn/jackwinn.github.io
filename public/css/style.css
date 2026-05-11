@@ -73,6 +73,7 @@ hr {
 /* Navigation */
 .navbar-default .navbar-collapse {
   border-color: transparent;
+  margin-top: 15px;
 }
 
 #menu {
@@ -80,7 +81,7 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background: linear-gradient(to right, #252A44 0%,#213b70 100%);
+  background: linear-gradient(to right, #252a44 0%, #213b70 100%);
   /* border-color: rgba(231, 231, 231, 0); */
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); */
   border-bottom: none;
@@ -100,6 +101,13 @@ hr {
   width: auto;
   max-width: 260px;
 }
+
+@media (max-width: 991px) {
+ #menu a.navbar-brand .navbar-logo {
+  height: 38px;
+}
+}
+
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Bai Jamjuree", sans-serif;
   text-transform: initial;
@@ -220,7 +228,7 @@ a:focus,
 }
 /* Header Section */
 #header {
-  background: url('../img/header-banner.png') no-repeat center center;
+  background: url("../img/header-banner.png") no-repeat center center;
   background-size: cover;
 }
 
@@ -401,6 +409,12 @@ header {
   height: 60%;
   width: 2px;
   background-color: #f0f0f0;
+}
+
+@media (max-width: 991px) {
+  #mission-vision .element:after {
+    display: none;
+  }
 }
 
 /* About Section */

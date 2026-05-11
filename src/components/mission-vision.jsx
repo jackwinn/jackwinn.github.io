@@ -10,7 +10,7 @@ export const MissionVision = (props) => {
           <h2>Our Mission & Vision</h2>
         </div>
         <div className="row">
-          <div className="col-xs-6 col-md-6 element">
+          <div className="col-xs-12 col-md-6 element">
             {" "}
             <img src={Mission} className="mission-icon" />
             <h2 className="mission-title">Mission</h2>
@@ -22,7 +22,7 @@ export const MissionVision = (props) => {
               systems that enable sustainable long-term success.
             </p>
           </div>
-          <div className="col-xs-6 col-md-6">
+          <div className="col-xs-12 col-md-6">
             {" "}
             <img src={Vision} className="vision-icon" />
             <h2 className="vision-title">Vision</h2>
