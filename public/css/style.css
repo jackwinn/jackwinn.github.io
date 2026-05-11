@@ -80,7 +80,7 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background: linear-gradient(to right, #272f4f 0%, #213b70 100%);
+  background: linear-gradient(to right, #252A44 0%,#213b70 100%);
   /* border-color: rgba(231, 231, 231, 0); */
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); */
   border-bottom: none;
@@ -219,36 +219,43 @@ a:focus,
   outline-offset: none;
 }
 /* Header Section */
+#header {
+  background: url('../img/header-banner.png') no-repeat center center;
+  background-size: cover;
+}
+
 .intro {
-  position: relative;
+  /* position: relative; */
   display: table;
   width: 100%;
-  padding: 0;
+  padding: 170px 0 0 0;
   overflow: hidden;
 }
 .intro .overlay {
-  position: relative;
-  z-index: 2;
-  background: linear-gradient(
+  /* position: relative;
+  z-index: 2; */
+  /* background: linear-gradient(
     90deg,
     rgba(39, 47, 79, 1) 0%,
     rgba(33, 59, 112, 0.96) 48%,
     rgba(33, 59, 112, 0.45) 72%,
     rgba(33, 59, 112, 0.08) 100%
-  );
+  ); */
+  /* background: url('../img/header-banner.png') no-repeat center center; */
 }
 
-.intro .intro-bg-half {
+/* .intro .intro-bg-half {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
-  width: min(56vw, 780px);
+  width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: right center;
+  object-position: center;
   z-index: 1;
-}
+} */
+
 .intro h1 {
   font-family: "Bai Jamjuree", sans-serif;
   color: #fff;
@@ -273,28 +280,47 @@ a:focus,
 .intro-text-content {
   margin: 50px 0 40px 0;
 }
-header .intro-text {
+
+header {
   position: relative;
   z-index: 3;
-  padding-top: 200px;
-  padding-bottom: 100px;
+  /* padding-top: 300px;
+  padding-bottom: 300px; */
+  height: 100%;
   /* max-width: 58%; */
   /* text-align: center; */
 }
 
+@media screen and (max-width: 1200px) {
+  .intro {
+    padding-top: 170px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+}
+
 @media (max-width: 991px) {
+  .intro {
+    padding-top: 10px;
+  }
+
   .intro,
   .intro .overlay {
     min-height: 640px;
   }
 
   .intro .intro-bg-half {
-    width: min(52vw, 520px);
+    /* width: min(52vw, 520px); */
   }
 
   header .intro-text {
     max-width: 70%;
-    padding-top: 170px;
+    padding-top: 20px;
   }
 }
 
@@ -311,13 +337,13 @@ header .intro-text {
     display: block;
   }
 
-  .intro .overlay {
+  /* .intro .overlay {
     background: linear-gradient(to right, #272f4f 0%, #213b70 100%);
-  }
+  } */
 
   header .intro-text {
     max-width: 100%;
-    padding-top: 140px;
+    padding-top: 0px;
   }
 }
 /* Mission Vission Section */
@@ -619,6 +645,12 @@ header .intro-text {
   width: 65%;
 }
 
+@media (max-width: 767px) {
+  #team .team-member-img {
+    width: 45%;
+  }
+}
+
 #team .team-member-name,
 .team-member-job {
   color: #fff;
@@ -652,8 +684,8 @@ header .intro-text {
   content: "";
   position: absolute;
   left: 0;
-  top: 0;
-  width: 24%;
+  top: 1;
+  width: 22%;
   height: 100%;
   background: #f1b55f;
   clip-path: polygon(0 0, 100% 100%, 0 100%);
@@ -694,7 +726,7 @@ header .intro-text {
   height: 4px;
   width: 60px;
   bottom: 0;
-  left: 35px;
+  left: 40px;
 }
 #contact h3 {
   color: #fff;

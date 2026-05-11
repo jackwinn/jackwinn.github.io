@@ -1,5 +1,5 @@
 import React from "react";
-import IntroBgHalf from "../assets/header/intro-bg-half.png";   
+// import HeaderBanner from "../assets/header/header-banner.png";   
 
 export const Header = (props) => {
   return (
@@ -36,7 +36,7 @@ export const Header = (props) => {
             </div>
           </div>
         </div>
-        <img src={IntroBgHalf} alt="Intro Background" className="intro-bg-half" />
+        {/* <img src={HeaderBanner} alt="Intro Background" className="intro-bg-half" /> */}
       </div>
     </header>
   );
