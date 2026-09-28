@@ -1,39 +1,25 @@
-import React, { useState, useEffect } from "react";
-import { Navigation } from "./components/navigation";
-import { Header } from "./components/header";
-import { MissionVision } from "./components/mission-vision";
-import { About } from "./components/about";
-import { Services } from "./components/services";
-// import { Gallery } from "./components/gallery";
-// import { Testimonials } from "./components/testimonials";
-import { Team } from "./components/Team";
-import { Contact } from "./components/contact";
-import JsonData from "./data/data.json";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/home";
+import MeetTheTeam from "./pages/meet-the-team";
+import { ScrollToTop } from "./utilities/scroll-to-top";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
+
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
 });
 
 const App = () => {
-  const [landingPageData, setLandingPageData] = useState({});
-  useEffect(() => {
-    setLandingPageData(JsonData);
-  }, []);
-
   return (
-    <div>
-      <Navigation />
-      <Header data={landingPageData.Header} />
-      <About data={landingPageData.About} />
-      <MissionVision data={landingPageData.MissionVision} />
-      <Services data={landingPageData.Services} />
-      {/* <Gallery data={landingPageData.Gallery} /> */}
-      {/* <Testimonials data={landingPageData.Testimonials} /> */}
-      <Team data={landingPageData.Team} />
-      <Contact data={landingPageData.Contact} />
-    </div>
+    <BrowserRouter>
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/meet-the-team" element={<MeetTheTeam />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 

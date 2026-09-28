@@ -44,6 +44,10 @@ jobs:
       - name: Disable Jekyll
         run: touch ./build/.nojekyll
 
+      # SPA fallback so /meet-the-team and other client routes work on refresh
+      - name: Copy index.html to 404.html
+        run: cp ./build/index.html ./build/404.html
+
       - name: Add CNAME
         run: echo "versatechms.com" > ./build/CNAME
 
