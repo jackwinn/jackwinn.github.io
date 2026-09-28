@@ -169,29 +169,67 @@ hr {
   background-color: #608dfd;
 } */
 .section-title {
-  margin-bottom: 70px;
+  margin-bottom: 20px;
 }
 .section-title h2 {
   position: relative;
-  margin-top: 10px;
+  margin-top: 40px;
   margin-bottom: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 40px;
   color: #f0f0f0;
 }
+
 .section-title h2::after {
   position: absolute;
   content: "";
   /* background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
   background: #f0f0f0;
-  height: 4px;
-  width: 60px;
+  height: 2px;
+  width: 100%;
   bottom: 0;
-  margin-left: -30px;
-  left: 50%;
+  margin-left: 0;
+  left: 0;
 }
+
 .section-title p {
   font-size: 18px;
 }
+
+.document-controller-title {
+  margin-bottom: 70px;
+}
+
+.document-controller-title h1 {
+  position: relative;
+  margin-top: 15px;
+  padding-top: 40px;
+  color: #f0f0f0;
+  font-weight: 600  ;
+}
+
+.document-controller-title h1::after {
+  position: absolute;
+  content: "";
+  /* background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
+  background: #f0f0f0;
+  height: 2px;
+  width: 100%;
+  top: 0;
+  margin-left: 0;
+  left: 0;
+}
+
+.document-controller-title p {
+  font-size: 18px;
+}
+
+.director-title h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
 .btn-custom {
   font-family: "Bai Jamjuree", sans-serif;
   /* text-transform: uppercase; */
@@ -636,6 +674,16 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: 32px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+#team .team-founder-content {
+  flex: 1;
+  min-width: 0;
+  text-align: left;
 }
 
 #team .team-row {
@@ -663,7 +711,10 @@ header {
   margin: 5px 0;
 }
 #team .team-founder-img {
-  width: 45%;
+  width: 220px;
+  max-width: 40%;
+  flex-shrink: 0;
+  border-radius: 50%;
 }
 
 #team .team-member-img {
@@ -671,6 +722,24 @@ header {
 }
 
 @media (max-width: 767px) {
+  #team .team-founder-container {
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+  }
+
+  #team .team-founder-img {
+    width: 180px;
+    max-width: 55%;
+  }
+
+  #team .team-founder-content,
+  #team .team-founder-name,
+  #team .team-founder-job,
+  #team .team-founder-summary {
+    text-align: center;
+  }
+
   #team .team-member-img {
     width: 45%;
   }
