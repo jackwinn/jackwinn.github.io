@@ -11,7 +11,9 @@ import NurHayatee from "../assets/team/nurhayatee-dc.webp";
 import Rabiatut from "../assets/team/rabiatut-dc.webp";
 import SitiHawa from "../assets/team/siti-hawa-dc-manager.webp";
 import TengkuNur from "../assets/team/tengku-nur-dc.webp";
-import ProtraitPlaceholder from "../assets/team/profile-placeholder.webp";
+// import ProtraitPlaceholder from "../assets/team/profile-placeholder.webp";
+import NorAliya from "../assets/team/nor-aliya-dc.webp";
+import NoorAffendy from "../assets/team/noor-affendy-sdc.webp";
 
 export const Team = (props) => {
   return (
@@ -23,7 +25,7 @@ export const Team = (props) => {
 
         <div className="row" style={{ marginBottom: "40px" }}>
           <div className="director-title">
-            <h1>Board of Directors</h1>
+            <h1></h1>
           </div>
           <div className="team-founder-container">
             <img src={Wanie} className="team-founder-img" alt="Zawani Binti Ag Hashim" />
@@ -54,7 +56,7 @@ export const Team = (props) => {
             <p className="team-member-job">Document Controller Manager</p>
           </div>
           <div className="col-md-3 col-sm-3">
-            <img src={ProtraitPlaceholder} className="team-member-img" />
+            <img src={NoorAffendy} className="team-member-img" />
             <h3 className="team-member-name">Noor Affendy Bin Abd Hamid</h3>
             <p className="team-member-job">Senior Document Controller</p>
           </div>
@@ -97,7 +99,7 @@ export const Team = (props) => {
         <div className="row team-row">
           <div className="col-md-3 col-sm-3">
             <img src={NorAlia} className="team-member-img" />
-            <h3 className="team-member-name">Nor Alia Bin Abu Talib</h3>
+            <h3 className="team-member-name">Nor Alia Binti Abu Talib</h3>
             <p className="team-member-job">Document Controller</p>
           </div>
           <div className="col-md-3 col-sm-3">
@@ -116,7 +118,31 @@ export const Team = (props) => {
             <p className="team-member-job">Junior Document Controller</p>
           </div>
         </div>
+
+        <div className="row team-row" style={{display: "flex", justifyContent: "center"}}>
+          <div className="col-md-3 col-sm-3">
+            <img src={NorAliya} className="team-member-img" />
+            <h3 className="team-member-name">Nor Aliya Binti Halim</h3>
+            <p className="team-member-job">Junior Document Controller</p>
+          </div>
+          {/* <div className="col-md-3 col-sm-3">
+            <img src={} className="team-member-img" />
+            <h3 className="team-member-name"></h3>
+            <p className="team-member-job"></p>
+          </div>
+          <div className="col-md-3 col-sm-3">
+            <img src={} className="team-member-img" />
+            <h3 className="team-member-name"></h3>
+            <p className="team-member-job"></p>
+          </div>
+          <div className="col-md-3 col-sm-3">
+            <img src={} className="team-member-img" />
+            <h3 className="team-member-name"></h3>
+            <p className="team-member-job"></p>
+          </div> */}
+        </div>
       </div>
     </div>
   );
 };
+
