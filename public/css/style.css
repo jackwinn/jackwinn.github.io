@@ -103,9 +103,9 @@ hr {
 }
 
 @media (max-width: 991px) {
- #menu a.navbar-brand .navbar-logo {
-  height: 38px;
-}
+  #menu a.navbar-brand .navbar-logo {
+    height: 38px;
+  }
 }
 
 #menu.navbar-default .navbar-nav > li > a {
@@ -204,7 +204,7 @@ hr {
   margin-top: 15px;
   padding-top: 40px;
   color: #f0f0f0;
-  font-weight: 600  ;
+  font-weight: 600;
 }
 
 .document-controller-title h1::after {
@@ -301,6 +301,13 @@ a:focus,
   background-size: cover;
 }
 
+#header .header-banner-button-group {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+
 .intro {
   /* position: relative; */
   display: table;
@@ -363,7 +370,7 @@ header {
   z-index: 3;
   /* padding-top: 300px;
   padding-bottom: 300px; */
-  height: 80%;
+  height: 90%;
   /* max-width: 58%; */
   /* text-align: center; */
 }
@@ -421,6 +428,12 @@ header {
   header .intro-text {
     max-width: 100%;
     padding-top: 0px;
+  }
+
+  @media (max-width: 375px) {
+    #header .header-banner-button-group {
+      flex-direction: column;
+    }
   }
 }
 /* Mission Vission Section */

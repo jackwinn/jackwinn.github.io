@@ -19,26 +19,28 @@ export const Header = (props) => {
                   </p>
                   <p>improve colloration, and ensure audit-ready compliance.</p>
                 </div>
-                <a
-                  href="https://wa.me/60175517371"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-custom btn-lg"
-                >
-                  Get Free Consultation
-                </a>
-                {/* <a
-                  href="#services"
-                  className="btn btn-custom-service btn-lg page-scroll"
-                >
-                  Our Services
-                </a> */}
-                {/* <a
+                <div className="header-banner-button-group">
+                  <a
+                    href="https://wa.me/60175517371"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-custom btn-lg"
+                  >
+                    Get Free Consultation
+                  </a>
+                  <a
+                    href="#services"
+                    className="btn btn-custom-service btn-lg page-scroll"
+                  >
+                    Our Services
+                  </a>
+                  {/* <a
                   href="#features"
                   className="btn btn-custom btn-lg page-scroll"
                 >
                   Learn More
                 </a>{" "} */}
+                </div>
               </div>
             </div>
           </div>
