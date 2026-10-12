@@ -1,5 +1,5 @@
 import React from "react";
-// import HeaderBanner from "../assets/header/header-banner.png";   
+// import HeaderBanner from "../assets/header/header-banner.png";
 
 export const Header = (props) => {
   return (
@@ -13,7 +13,6 @@ export const Header = (props) => {
                 <h1>
                   <span>Transforming Document Control</span>
                 </h1>
-                <h1>Into Project Confidence</h1>
                 <div className="intro-text-content">
                   <p>
                     We help project teams implement efficient document systems,
@@ -21,11 +20,19 @@ export const Header = (props) => {
                   <p>improve colloration, and ensure audit-ready compliance.</p>
                 </div>
                 <a
+                  href="https://wa.me/60175517371"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-custom btn-lg"
+                >
+                  Get Free Consultation
+                </a>
+                {/* <a
                   href="#services"
-                  className="btn btn-custom btn-lg page-scroll"
+                  className="btn btn-custom-service btn-lg page-scroll"
                 >
                   Our Services
-                </a>
+                </a> */}
                 {/* <a
                   href="#features"
                   className="btn btn-custom btn-lg page-scroll"
