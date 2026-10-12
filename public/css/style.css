@@ -301,11 +301,21 @@ a:focus,
   background-size: cover;
 }
 
-#header .header-banner-button-group {
+.header-banner-button-group {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 20px;
+}
+
+.btn-custom {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.whatsapp-icon {
+  font-size: 22px;
 }
 
 .intro {
@@ -436,6 +446,7 @@ header {
     }
   }
 }
+
 /* Mission Vission Section */
 #mission-vision {
   padding: 100px 0;

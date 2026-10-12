@@ -1,5 +1,5 @@
 import React from "react";
-// import HeaderBanner from "../assets/header/header-banner.png";
+import { FaWhatsapp } from "react-icons/fa";
 
 export const Header = (props) => {
   return (
@@ -26,7 +26,10 @@ export const Header = (props) => {
                     rel="noopener noreferrer"
                     className="btn btn-custom btn-lg"
                   >
-                    Get Free Consultation
+                    <span className="whatsapp-icon">
+                      <FaWhatsapp />
+                    </span>
+                    <span> Get Free Consultation</span>
                   </a>
                   <a
                     href="#services"
