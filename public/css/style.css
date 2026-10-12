@@ -306,6 +306,7 @@ a:focus,
   justify-content: flex-start;
   align-items: flex-start;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .btn-custom {
@@ -438,12 +439,6 @@ header {
   header .intro-text {
     max-width: 100%;
     padding-top: 0px;
-  }
-
-  @media (max-width: 375px) {
-    #header .header-banner-button-group {
-      flex-direction: column;
-    }
   }
 }
 
