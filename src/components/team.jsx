@@ -100,6 +100,42 @@ export const Team = (props) => {
 
         <div className="row">
           <div className="col-md-12 section-title">
+            <h2>Document Controller</h2>
+          </div>
+        </div>
+
+        <div className="row team-row">
+          <div className="col-md-3 col-sm-3">
+            <img
+              src={NurHayani}
+              className="team-member-img"
+              alt="team member "
+            />
+            <h3 className="team-member-name">Nur Hayani Binti Mohd Shukri</h3>
+            <p className="team-member-job">Document Controller</p>
+          </div>
+          <div className="col-md-3 col-sm-3">
+            <img
+              src={NurZafirah}
+              className="team-member-img"
+              alt="team member "
+            />
+            <h3 className="team-member-name">Nur Zafirah Binti Baharum</h3>
+            <p className="team-member-job">Document Controller</p>
+          </div>
+          <div className="col-md-3 col-sm-3">
+            <img
+              src={NurHayatee}
+              className="team-member-img"
+              alt="team member "
+            />
+            <h3 className="team-member-name">Nurhayatee Yusoh</h3>
+            <p className="team-member-job">Document Controller</p>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-md-12 section-title">
             <h2>Junior Document Controller</h2>
           </div>
         </div>
@@ -179,42 +215,6 @@ export const Team = (props) => {
             />
             <h3 className="team-member-name">Isma Iszre Izec Bin Ismail</h3>
             <p className="team-member-job">Junior Document Controller</p>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="col-md-12 section-title">
-            <h2>Document Controller</h2>
-          </div>
-        </div>
-
-        <div className="row team-row">
-          <div className="col-md-3 col-sm-3">
-            <img
-              src={NurHayani}
-              className="team-member-img"
-              alt="team member "
-            />
-            <h3 className="team-member-name">Nur Hayani Binti Mohd Shukri</h3>
-            <p className="team-member-job">Document Controller</p>
-          </div>
-          <div className="col-md-3 col-sm-3">
-            <img
-              src={NurZafirah}
-              className="team-member-img"
-              alt="team member "
-            />
-            <h3 className="team-member-name">Nur Zafirah Binti Baharum</h3>
-            <p className="team-member-job">Document Controller</p>
-          </div>
-          <div className="col-md-3 col-sm-3">
-            <img
-              src={NurHayatee}
-              className="team-member-img"
-              alt="team member "
-            />
-            <h3 className="team-member-name">Nurhayatee Yusoh</h3>
-            <p className="team-member-job">Document Controller</p>
           </div>
         </div>
       </div>
