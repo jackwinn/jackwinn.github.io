@@ -923,6 +923,10 @@ header#services-header {
 }
 
 @media (max-width: 767px) {
+  #team .team-row {
+    display: block;
+  }
+
   #team .team-founder-container {
     flex-direction: column;
     gap: 24px;
