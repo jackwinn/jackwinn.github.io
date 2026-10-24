@@ -6,7 +6,9 @@ export const Navigation = (props) => {
   const { pathname } = useLocation();
   const sectionHref = (hash) => (pathname === "/" ? hash : `/${hash}`);
   const isTeamPage = pathname.startsWith("/meet-the-team");
-
+  const isServicesPage = pathname.startsWith("/our-services");
+  const isAboutUsPage = pathname.startsWith("/about-us");
+  
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
@@ -40,20 +42,11 @@ export const Navigation = (props) => {
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">
-            <li>
-              <a href={sectionHref("#about")} className="page-scroll">
-                About
-              </a>
+            <li className={isAboutUsPage ? "route-active" : undefined}>
+              <Link to="/about-us">About Us</Link>
             </li>
-            <li>
-              <a href={sectionHref("#mission-vision")} className="page-scroll">
-                Mission & Vision
-              </a>
-            </li>
-            <li>
-              <a href={sectionHref("#services")} className="page-scroll">
-                Services
-              </a>
+            <li className={isServicesPage ? "route-active" : undefined}>
+              <Link to="/our-services">Our Services</Link>
             </li>
             <li className={isTeamPage ? "route-active" : undefined}>
               <Link to="/meet-the-team">Meet The Team</Link>

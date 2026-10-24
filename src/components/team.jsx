@@ -14,6 +14,7 @@ import TengkuNur from "../assets/team/tengku-nur-dc.webp";
 import NorAliya from "../assets/team/nor-aliya-dc.webp";
 import NoorAffendy from "../assets/team/noor-affendy-sdc.webp";
 import NurIzzahAtirah from "../assets/team/nur-izzah-atirah-dc.webp";
+import SitiAishah from "../assets/team/siti-aishah-sdc.webp";
 
 export const Team = (props) => {
   return (
@@ -94,6 +95,15 @@ export const Team = (props) => {
             <h3 className="team-member-name">
               Rabi’atul Adawiyah Binti Seh Nilamuddin
             </h3>
+            <p className="team-member-job">Senior Document Controller</p>
+          </div>
+          <div className="col-md-3 col-sm-3">
+            <img
+              src={SitiAishah}
+              className="team-member-img"
+              alt="team member "
+            />
+            <h3 className="team-member-name">Siti Aishah Binti Ramli</h3>
             <p className="team-member-job">Senior Document Controller</p>
           </div>
         </div>

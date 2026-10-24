@@ -1,13 +1,10 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Navigation } from "../components/navigation";
 import { Header } from "../components/header";
-import { MissionVision } from "../components/mission-vision";
-import { About } from "../components/about";
 import { Services } from "../components/services";
-import { Contact } from "../components/contact";
 import JsonData from "../data/data.json";
 
-const Home = () => {
+const HomePage = () => {
   const [landingPageData, setLandingPageData] = useState({});
   useEffect(() => {
     setLandingPageData(JsonData);
@@ -28,12 +25,11 @@ const Home = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
-      <About data={landingPageData.About} />
-      <MissionVision data={landingPageData.MissionVision} />
+      {/* <About data={landingPageData.About} /> */}
+      {/* <MissionVision data={landingPageData.MissionVision} /> */}
       <Services data={landingPageData.Services} />
-      <Contact data={landingPageData.Contact} />
     </div>
   );
 };
 
-export default Home;
+export default HomePage;

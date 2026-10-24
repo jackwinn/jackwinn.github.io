@@ -453,69 +453,6 @@ header {
   }
 }
 
-/* Mission Vission Section */
-#mission-vision {
-  padding: 100px 0;
-  background: linear-gradient(to right, #c92a47 0%, #263b70 100%);
-}
-#mission-vision i.fa {
-  font-size: 38px;
-  margin-bottom: 20px;
-  transition: all 0.5s;
-  color: #000;
-  width: 100px;
-  height: 100px;
-  padding: 30px 0;
-  border-radius: 50%;
-  background: linear-gradient(to right, #fff 0%, #f0f0f0 100%);
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
-}
-#mission-vision .section-title,
-.mission-title,
-.vision-title {
-  color: #f0f0f0;
-}
-
-#mission-vision .mission-title,
-.vision-title {
-  margin: 40px 0 60px 0;
-}
-
-#mission-vision .mission-icon,
-.vision-icon {
-  width: 120px;
-  /* margin: 30px 0 40px 0; */
-  color: #f0f0f0;
-}
-
-#mission-vision .mission-text,
-.vision-text {
-  color: #f0f0f0;
-  text-align: justify;
-  padding: 0 40px;
-}
-
-#mission-vision .element {
-  position: relative;
-  padding-bottom: 10px;
-}
-
-#mission-vision .element:after {
-  content: "";
-  position: absolute;
-  right: 0;
-  top: 20%;
-  height: 60%;
-  width: 2px;
-  background-color: #f0f0f0;
-}
-
-@media (max-width: 991px) {
-  #mission-vision .element:after {
-    display: none;
-  }
-}
-
 /* About Section */
 #about {
   padding: 100px 0;
@@ -570,10 +507,163 @@ header {
   color: #544945;
   text-align: justify;
 }
+
+#about-us-header {
+  background: url("../img/vt-about-banner.webp") no-repeat center center;
+  background-size: cover;
+}
+
+#about-us-header .intro-text-content {
+  margin: 50px 0 0;
+}
+
+#mission-vision {
+  padding: 54px 24px 62px;
+  background: #fff;
+  color: #666;
+}
+
+#mission-vision .about-page-content {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+#mission-vision h2 {
+  margin: 0 0 18px;
+  color: #273f74;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+#mission-vision .mission-vision-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 30px;
+}
+
+#mission-vision .mission-vision-card {
+  display: grid;
+  grid-template-columns: 84px minmax(0, 1fr);
+  gap: 18px;
+  min-height: 218px;
+  padding: 25px 28px 24px 22px;
+  background: #f8f8fa;
+  border: 1px solid #dedee3;
+  border-radius: 20px;
+}
+
+#mission-vision .mission-vision-icon {
+  width: 84px;
+  height: 84px;
+  object-fit: contain;
+}
+
+#mission-vision .mission-vision-card h3 {
+  margin: 0 0 7px;
+  color: #273f74;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+#mission-vision .mission-vision-card p {
+  margin: 0;
+  color: #68636a;
+  font-size: 14px;
+  line-height: 1.62;
+  text-align: left;
+}
+
+#mission-vision .philosophy-section {
+  margin-top: 48px;
+}
+
+#mission-vision .philosophy-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 36px;
+  align-items: start;
+  margin: 8px 32px 10px;
+}
+
+#mission-vision .philosophy-item {
+  text-align: center;
+}
+
+#mission-vision .philosophy-item img {
+  display: block;
+  width: 154px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 10px;
+}
+
+#mission-vision .philosophy-item h3 {
+  max-width: 150px;
+  margin: 0 auto;
+  color: #273f74;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.05;
+}
+
+#mission-vision .philosophy-description {
+  margin: 14px 0 0;
+  color: #68636a;
+  font-size: 13.5px;
+  line-height: 1.55;
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  #mission-vision {
+    padding: 42px 20px 48px;
+  }
+
+  #mission-vision h2 {
+    font-size: 27px;
+  }
+
+  #mission-vision .mission-vision-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  #mission-vision .mission-vision-card {
+    min-height: 0;
+  }
+
+  #mission-vision .philosophy-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px 20px;
+    margin: 8px 0 22px;
+  }
+}
+
+@media (max-width: 479px) {
+  #mission-vision .mission-vision-card {
+    grid-template-columns: 64px minmax(0, 1fr);
+    gap: 14px;
+    padding: 22px 18px;
+  }
+
+  #mission-vision .mission-vision-icon {
+    width: 64px;
+    height: 64px;
+  }
+
+  #mission-vision .philosophy-item img {
+    width: 130px;
+  }
+}
+
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: #f2f2f2;
+  /* background: #f2f2f2; */
+  background: #fff;
   color: #fff;
 }
 /* #services .service-desc {
@@ -627,6 +717,60 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center; */
+}
+
+#services.services-page .service-card {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  height: auto;
+  min-height: 150px;
+  margin-bottom: 24px;
+  padding: 24px 28px;
+  /* border: 1px solid #d7d7d7; */
+  border: 2px solid #dedee3;
+  background: #f8f8fa;
+  border-radius: 12px;
+  text-align: left;
+}
+
+#services.services-page .service-icon {
+  width: 130px;
+  flex: 0 0 100px;
+}
+
+#services.services-page .service-desc h2 {
+  margin: 0 0 18px;
+    color: #273f74;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+#services.services-page .service-desc p {
+  margin: 0;
+}
+
+@media (max-width: 575px) {
+  #services.services-page .service-card {
+    gap: 18px;
+    min-height: 120px;
+    padding: 18px;
+  }
+
+  #services.services-page .service-icon {
+    width: 72px;
+    flex-basis: 72px;
+  }
+}
+
+#services-header {
+  background: url("../img/vt-services-banner.webp") no-repeat center center;
+  background-size: cover;
+}
+
+header#services-header {
+  min-height: 50vh;
 }
 
 /* Portfolio Section */

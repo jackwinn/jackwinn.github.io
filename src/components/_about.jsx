@@ -11,7 +11,7 @@ export const About = (props) => {
             <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
           </div> */}
           <div className="col-xs-12 col-md-12">
-            <div className="about-text">
+            {/* <div className="about-text">
               <h2>About Us</h2>
               <p>
                 <span className="company-name-in-paragraph">
@@ -43,7 +43,7 @@ export const About = (props) => {
                 , we believe strong performance comes from accuracy, integrity, and innovation, supported by effective document control, quality management, and digital transformation. We focus on continuous improvement and tailored solutions aligned with international
                 standards to deliver clear processes, measurable results, and lasting value.
               </p>
-              {/* <div className="list-style">
+              <div className="list-style">
                 <div className="col-lg-6 col-sm-6 col-xs-12">
                   <ul>
                     {props.data
@@ -62,8 +62,8 @@ export const About = (props) => {
                       : "loading"}
                   </ul>
                 </div>
-              </div> */}
-            </div>
+              </div>
+            </div> */}
           </div>
         </div>
       </div>
